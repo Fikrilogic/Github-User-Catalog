@@ -14,7 +14,7 @@ class AppNavigationProvider(private val navController: NavController) : Navigati
     }
 
     override fun navigateToDetail(user: User, option: NavOptionsBuilder.() -> Unit) {
-//        navController.navigate(UserDetailScreenDestination.invoke(user = user))
+        navController.navigate(UserDetailScreenDestination.invoke(user = user))
     }
 
 

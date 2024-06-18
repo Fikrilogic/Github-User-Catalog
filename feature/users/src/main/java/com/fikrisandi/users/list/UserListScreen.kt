@@ -159,9 +159,7 @@ fun UserListScreen(
                                             .fillMaxWidth()
                                             .padding(horizontal = 16.dp, vertical = 8.dp)
                                             .clickable {
-                                                data.let { user ->
-                                                    navigationProvider.navigateToDetail(user)
-                                                }
+                                                navigationProvider.navigateToDetail(data)
                                             },
                                         horizontalArrangement = Arrangement.spacedBy(16.dp),
                                         verticalAlignment = Alignment.CenterVertically

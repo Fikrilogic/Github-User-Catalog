@@ -20,7 +20,7 @@ android {
 
 ksp{
     arg("compose-destinations.mode", "navgraphs")
-    arg("compose-destinations.moduleName", "news")
+    arg("compose-destinations.moduleName", "user")
 }
 
 dependencies {

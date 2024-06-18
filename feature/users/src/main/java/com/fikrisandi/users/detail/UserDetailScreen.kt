@@ -47,7 +47,6 @@ fun UserDetailScreen(
     navigationProvider: NavigationProvider,
     user: User? = null
 ) {
-    val context = LocalContext.current
     Scaffold(modifier = Modifier.fillMaxSize(), topBar = {
         TopAppBar(
             modifier = Modifier.fillMaxWidth(),
